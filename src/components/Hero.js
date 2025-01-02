@@ -4,7 +4,6 @@ export default function Hero() {
     return (
       <section className="bg-white text-gray-800 py-20">
         <div className="container mx-auto px-6 text-center">
-          {/* <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1> */}
           <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h2 className="text-2xl font-bold text-blue-400 mb-4">Hi! I'm Sneha</h2>
@@ -28,13 +27,13 @@ export default function Hero() {
           </a>
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
-            <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-blue-400">
+            <div className="relative w-64 h-64 lg:w-80 lg:h-80 overflow-hidden border-4 border-blue-400">
               <Image
-                src="/image.jpeg"
+                src="/image.png"
                 alt="Sneha Dharne"
                 layout="fill"
                 objectFit="cover"
-                className="rounded-full"
+              
               />
             </div>
           </div>
