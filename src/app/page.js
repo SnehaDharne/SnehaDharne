@@ -7,25 +7,28 @@ import Footer from '../components/Footer'
 import React, { useState, useEffect } from 'react';
 
 
+import { useEffect, useState } from 'react';
+
 export default function Home() {
-  
-    if (typeof window !== 'undefined') {
-      return (
-        <div className="min-h-screen flex flex-col">
-          <Header />
-          <main className="flex-grow">
-            <Hero />
-            <Projects />
-          </main>
-          <Footer />
-        </div>
-      );
-    }
-    else return (
-      <div>
-        can't render page
-      </div>
-    )
-  
-    
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);  // Set to true after component mounts (client-side)
+  }, []);
+
+  if (!isClient) {
+    // Optionally return a loader or empty div before mounting on the client
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow">
+        <Hero />
+        <Projects />
+      </main>
+      <Footer />
+    </div>
+  );
 }
