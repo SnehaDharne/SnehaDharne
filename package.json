@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d .next"
+
   },
   "dependencies": {
     "next": "15.1.3",
@@ -16,7 +17,6 @@
     "react-dom": "^19.0.0"
   },
   "homepage": "https://snehadharne.github.io/snehadharne",
-
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
