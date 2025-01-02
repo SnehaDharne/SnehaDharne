@@ -1,0 +1,18 @@
+[
+    { "id": 1, "title": "Financial Report Generator with LangChain", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Generative AI", "Machine Learning", "Finance", "KPI", "Dev"]},
+    { "id": 2, "title": "Extraction of symptom text from VAERS dataset and temporal and associative analysis of symptoms", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Generative AI", "Machine Learning", "Healthcare"]},
+    { "id": 3, "title": "Chubb - Capstone Project", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Generative AI", "Machine Learning", "Finance", "KPI"]},
+    { "id": 4, "title": "Data Analytics and predictive modeling on NYC.GOV Data", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Machine Learning","Big Data"]},
+    { "id": 5, "title": "Azure Pyrit - Open Source Contribution", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Machine Learning","Generative AI", "Dev"]},
+    { "id": 6, "title": "Guided ML - Chatbot", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Machine Learning","Generative AI", "Dev"]},
+    { "id": 7, "title": "Ocular Disease Recognition", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Machine Learning","Deep Learning", "Healthcare", "Computer Vision"]},
+    { "id": 8, "title": "Learning Analytics", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Machine Learning"]},
+    { "id": 9, "title": "GDM Dignostics", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Machine Learning", "Healthcare"]},
+    { "id": 10, "title": "findyourhaveli", "description": "A brief description of Project 1", "image": "/placeholder.jpeg","tag": ["Dev"]},
+    { "id": 11, "title": "Case Study at Deloitte", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Dev", "Big Data", "KPI"]},
+    { "id": 12, "title": "Small Biz books - ecomm website", "description": "A brief description of Project 1", "image": "/placeholder.jpeg",  "tag": ["Dev"]},
+    { "id": 13, "title": "Issue Tracker App", "description": "A brief description of Project 1", "image": "/placeholder.jpeg",  "tag": ["Dev"]}
+
+
+]
+  
