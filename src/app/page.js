@@ -4,10 +4,8 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
+import Experience from '../components/Experience'
 import React, { useState, useEffect } from 'react';
-
-
-import { useEffect, useState } from 'react';
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -26,6 +24,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <Hero />
+        <Experience />
         <Projects />
       </main>
       <Footer />

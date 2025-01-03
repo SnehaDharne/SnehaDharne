@@ -6,9 +6,5 @@ const nextConfig = {
       unoptimized: true,
     },
   };
-  
-  module.exports = {
-    output: 'export', // This enables static export
-  };
-  
+
   
