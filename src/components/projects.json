@@ -1,13 +1,14 @@
 [
-    { "id": 1, "title": "Financial Report Generator with LangChain", "description": "A brief description of Project 1", "image": "/project/fin-ai.png", "tag": ["Generative AI", "Machine Learning", "Finance", "KPI", "Dev"]},
-    { "id": 2, "title": "Analysis on COVID 19 Vaccine symptoms", "description": "A brief description of Project 1", "image": "/project/vaers.png", "tag": ["Generative AI", "Machine Learning", "Healthcare"]},
-    { "id": 3, "title": "Chubb - Capstone Project", "description": "A brief description of Project 1", "image": "/project/chubb.png", "tag": ["Generative AI", "Machine Learning", "Finance", "KPI"]},
-    { "id": 4, "title": "Data Analytics and predictive modeling on NYC.GOV Data", "description": "A brief description of Project 1", "image": "/project/nycgov.png", "tag": ["Machine Learning","Big Data"]},
-    { "id": 5, "title": "Azure Pyrit - Open Source Contribution", "description": "A brief description of Project 1", "image": "/project/azure.png", "tag": ["Machine Learning","Generative AI", "Dev"]},
-    { "id": 6, "title": "Guided ML - Chatbot", "description": "A brief description of Project 1", "image": "/project/guidedml.png", "tag": ["Machine Learning","Generative AI", "Dev"]},
-    { "id": 7, "title": "Ocular Disease Recognition", "description": "A brief description of Project 1", "image": "/project/odr.png", "tag": ["Machine Learning","Deep Learning", "Healthcare", "Computer Vision"]},
-    { "id": 8, "title": "Learning Analytics", "description": "A brief description of Project 1", "image": "/project/LA.png", "tag": ["Machine Learning"]},
-    { "id": 9, "title": "GDM Dignostics", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Machine Learning", "Healthcare"]}
+    { "id": 1, "title": "Financial Report Generator with LangChain", "description": "A brief description of Project 1", "image": "/project/fin-ai.png", "link": "https://github.com/SnehaDharne/FinancialReportGeneratorGenAI", "tag": ["Generative AI", "Machine Learning", "Finance", "KPI", "Dev"]},
+    { "id": 2, "title": "Analysis on COVID 19 Vaccine symptoms", "description": "A brief description of Project 1", "image": "/project/vaers1.png","link": "https://github.com/SnehaDharne/TemporalAndAssociativeRelationships-VAERS", "tag": ["Generative AI", "Machine Learning", "Healthcare"]},
+    { "id": 3, "title": "Chubb - Capstone Project", "description": "A brief description of Project 1", "image": "/project/chubb.png", "link": "https://github.com/SnehaDharne/stock-analytics-aws", "tag": ["Generative AI", "Machine Learning", "Finance", "KPI"]},
+    { "id": 4, "title": "Data Analytics and predictive modeling on NYC.GOV Data", "description": "A brief description of Project 1", "link": "https://github.com/SnehaDharne/nyc.gov-data-analytics", "image": "/project/nycgov.png", "tag": ["Machine Learning","Big Data"]},
+    { "id": 5, "title": "Azure Pyrit - Open Source Contribution", "description": "A brief description of Project 1", "image": "/project/azure1.png", "link": "https://github.com/SnehaDharne/PyRIT", "tag": ["Machine Learning","Generative AI", "Dev"]},
+    { "id": 6, "title": "Guided ML - Chatbot", "description": "A brief description of Project 1", "image": "/project/guidedml.png", "link": "https://github.com/SnehaDharne/chatML", "tag": ["Machine Learning","Generative AI", "Dev"]},
+    { "id": 7, "title": "Ocular Disease Recognition", "description": "A brief description of Project 1", "image": "/project/odr.png", "link": "https://github.com/SnehaDharne/OcularDiseaseRecognition", "tag": ["Machine Learning","Deep Learning", "Healthcare", "Computer Vision"]},
+    {"id": 8, "title": "Case Study at Deloitte", "image":"/project/Deloitte.png", "link":"https://github.com/SnehaDharne/group6-deloitte", "tag": ["KPI", "Dev", "Big Data"] },
+    { "id": 9, "title": "Learning Analytics", "description": "A brief description of Project 1", "image": "/project/LA.png", "link": "https://github.com/SnehaDharne/learning-analytics", "tag": ["Machine Learning"]},
+    { "id": 10, "title": "GDM Dignostics", "description": "A brief description of Project 1", "image": "/project/gdm.png", "link": "https://github.com/SnehaDharne/GDM-diagnosis", "tag": ["Machine Learning", "Healthcare"]}
 
 ]
   

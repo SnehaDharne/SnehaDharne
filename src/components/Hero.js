@@ -18,15 +18,26 @@ export default function Hero() {
           <div className="lg:w-1/2 mb-12 lg:mb-0 text-center lg:text-left">
             <h2 className="text-2xl font-bold text-teal-300 mb-4 animate-pulse">Hi! I'm Sneha</h2>
             <h1 className="text-5xl lg:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-300 to-purple-300">
-              Transforming Data into Insights
+              I build data-driven solutions to solve real-world problems.
             </h1>
-            <div className="text-xl mb-8 text-gray-200 max-w-lg mx-auto lg:mx-0">
+            {/* <div className="text-xl mb-8 text-gray-200 max-w-lg mx-auto lg:mx-0">
               With 2+ years of experience in data engineering and analytics, machine learning, and software development.
+            </div> */}
+            <div className="mb-10">
+              <h3 className="text-2xl font-semibold mb-4 text-teal-200">What I do:</h3>
+              <ul className="space-y-2 text-lg text-gray-200">
+                {['Transform raw data into actionable insights', 'Design scalable systems and pipelines', 'Build AI-powered applications'].map((item, index) => (
+                  <li key={index} className="flex items-center justify-center lg:justify-start">
+                    <span className="mr-2 text-purple-300">•</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
             <div className="mb-10">
               <h3 className="text-2xl font-semibold mb-4 text-teal-200">My Interests:</h3>
               <ul className="space-y-2 text-lg text-gray-200">
-                {['AI in Healthcare', 'Big Data Analytics', 'Software Development'].map((item, index) => (
+                {['AI in Healthcare', 'Big Data Analytics', 'Full-Stack Development'].map((item, index) => (
                   <li key={index} className="flex items-center justify-center lg:justify-start">
                     <span className="mr-2 text-purple-300">•</span>
                     {item}
@@ -58,19 +69,19 @@ export default function Hero() {
         </div>
         <div className="mt-12 flex justify-center space-x-6">
           {[
-            { icon: 'github', label: 'GitHub', href: 'https://github.com/yourusername' },
-            { icon: 'linkedin', label: 'LinkedIn', href: 'https://linkedin.com/in/yourusername' },
-            { icon: 'mail', label: 'Email', href: 'mailto:your.email@example.com' },
+            { icon: 'github', label: 'GitHub', href: 'https://github.com/SnehaDharne' },
+            { icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/sneha-dharne-6837441b6/' },
+            { icon: 'mail', label: 'Email', href: 'mailto:snehadattadharne@gmail.com' },
           ].map(({ icon, label, href }) => (
             <a
               key={label}
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-teal-300 hover:text-purple-300 transition-colors duration-300"
+              className="text-teal-300 hover:text-purple-300 bg-black transition-colors duration-300"
               aria-label={label}
             >
-              <span className="sr-only">{label}</span>
+              <span className="sr-only text-white">{label} here here </span>
               <span className={`icon-${icon} text-2xl`}></span>
             </a>
           ))}
