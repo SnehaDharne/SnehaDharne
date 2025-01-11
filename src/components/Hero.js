@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
 const Button = ({ children, className, ...props }) => (
@@ -46,17 +47,22 @@ export default function Hero() {
               </ul>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start  space-y-4 sm:space-y-0 sm:space-x-4">
+            <Link href="#projects" className="hover:text-gray-300">
               <Button className="bg-teal-500  hover:bg-teal-600 text-white">
                 View My Projects
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Button>
+            </Link>
+            <a href = '/Resume-SnehaDharne.docx' download>
               <Button className="bg-purple-500 hover:bg-purple-600 text-white">
+
                 Download Resume
               </Button>
+              </a>
             </div>
           </div>
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
-            <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden mr-10 border-8 border-teal-300 shadow-2xl transition-transform duration-300 hover:scale-105">
+            <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden  border-8 border-teal-300 shadow-2xl transition-transform duration-300 hover:scale-105">
               <Image
                 src="/image.png"
                 alt="Sneha Dharne"
