@@ -53,7 +53,7 @@ export default function Hero() {
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <a href = '/Resume-SnehaDharne.docx' download>
+            <a href = '/SnehaDharne-DataEngineer.docx' download>
               <Button className="bg-purple-500 hover:bg-purple-600 text-white">
 
                 Download Resume
