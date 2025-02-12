@@ -13,7 +13,7 @@ const Button = ({ children, className, ...props }) => (
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-purple-700 via-indigo-800 to-teal-700 text-white py-20">
+    <section className=" text-white py-20">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between mx-10">
           <div className="lg:w-1/2 mb-12 lg:mb-0 text-center lg:text-left">
@@ -36,15 +36,15 @@ export default function Hero() {
               </ul>
             </div>
             <div className="mb-10">
-              <h3 className="text-2xl font-semibold mb-4 text-teal-200">My Interests:</h3>
+              {/* <h3 className="text-2xl font-semibold mb-4 text-teal-200">My Interests:</h3>
               <ul className="space-y-2 text-lg text-gray-200">
-                {['AI in Healthcare', 'Big Data Analytics', 'Full-Stack Development'].map((item, index) => (
+                {['AI in Healthcare', 'Big Data Analytics', 'Build AI-powered applications'].map((item, index) => (
                   <li key={index} className="flex items-center justify-center lg:justify-start">
                     <span className="mr-2 text-purple-300">•</span>
                     {item}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start  space-y-4 sm:space-y-0 sm:space-x-4">
             <Link href="#projects" className="hover:text-gray-300">
@@ -53,7 +53,7 @@ export default function Hero() {
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <a href = '/SnehaDharne-DataEngineer.docx' download>
+            <a href = '/SnehaDharne-DataAnalyst.pdf' download>
               <Button className="bg-purple-500 hover:bg-purple-600 text-white">
 
                 Download Resume

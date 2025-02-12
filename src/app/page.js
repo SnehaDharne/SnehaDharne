@@ -1,10 +1,12 @@
 'use client'
 import Image from "next/image";
-import Header from '../components/Header'
+import Navigation from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
-import Experience from '../components/Experience'
+import AcademicJourney from '../components/EduExperience'
+import { Achievements } from "@/components/achievements";
+import { Experience } from "@/components/Experience";
 import React, { useState, useEffect } from 'react';
 
 export default function Home() {
@@ -21,10 +23,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-grow">
+      <Navigation />
+      <main className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-700 to-teal-600">
         <Hero />
+        <AcademicJourney />
         <Experience />
+        <Achievements />
         <Projects />
       </main>
       <Footer />

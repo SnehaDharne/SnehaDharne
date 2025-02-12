@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d .next"
   },
   "dependencies": {
+    "framer-motion": "^12.4.2",
     "lucide-react": "^0.469.0",
     "next": "15.1.3",
     "react": "^19.0.0",
