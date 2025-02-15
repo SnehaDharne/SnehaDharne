@@ -44,6 +44,6 @@ Used ML models to diagnose early stage GDM in pregnant women, research featured 
 I'm always excited to collaborate on innovative projects or discuss the latest in data engineering and AI. Feel free to reach out!
 
 - 📧 Email: snehadattadharne@gmail.com
-- 🔗 LinkedIn: [Sneha Dharne](https://www.linkedin.com/in/sneha-dharne)
+- 🔗 LinkedIn: [Sneha Dharne](https://www.linkedin.com/in/snehadharne)
 
 Looking forward to connecting with fellow data enthusiasts and health tech innovators! Let's build something amazing together! 🚀
