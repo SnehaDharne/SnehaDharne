@@ -1,11 +1,10 @@
 'use client'
-import Image from "next/image";
 import Navigation from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 import AcademicJourney from '../components/EduExperience'
-import { Achievements } from "@/components/achievements";
+import Achievements from "@/components/Achievements";
 import { Experience } from "@/components/Experience";
 import React, { useState, useEffect } from 'react';
 

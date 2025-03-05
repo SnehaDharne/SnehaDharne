@@ -24,9 +24,9 @@ export function CardTitle({ className, children, ...props }) {
 
 export function CardDescription({ className, children, ...props }) {
   return (
-    <p className={`text-sm text-gray-300 ${className}`} {...props}>
+    <div className={`text-sm text-gray-300 ${className}`} {...props}>
       {children}
-    </p>
+    </div>
   )
 }
 export function CardContent({ className, children, ...props }) {

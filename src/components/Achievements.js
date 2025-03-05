@@ -17,7 +17,7 @@ const achievements = [
   },
 ]
 
-export function Achievements() {
+export default function Achievements() {
   return (
     <section id = "achievements" className="py-20 px-4 md:px-6 bg-white/5">
       <div className="max-w-6xl mx-auto">

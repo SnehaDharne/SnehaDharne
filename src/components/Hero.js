@@ -21,30 +21,22 @@ export default function Hero() {
             <h1 className="text-5xl lg:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-300 to-purple-300">
               I build data-driven solutions to solve real-world problems.
             </h1>
-            {/* <div className="text-xl mb-8 text-gray-200 max-w-lg mx-auto lg:mx-0">
-              With 2+ years of experience in data engineering and analytics, machine learning, and software development.
-            </div> */}
+
             <div className="mb-10">
-              <h3 className="text-2xl font-semibold mb-4 text-teal-200">What I do:</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-teal-200">What I have worked with:</h3>
               <ul className="space-y-2 text-lg text-gray-200">
-                {['Transform raw data into actionable insights', 'Design scalable systems and pipelines', 'Build AI-powered applications'].map((item, index) => (
+                {['Government Data', 'Medical Research', 'Financial Documents', 'CRM Data'].map((item, index) => (
                   <li key={index} className="flex items-center justify-center lg:justify-start">
                     <span className="mr-2 text-purple-300">•</span>
                     {item}
                   </li>
                 ))}
               </ul>
+             
             </div>
+            <h4 className="flex items-center justify-center lg:justify-start"> oh- and I also build AI Assistants to simplify manual tasks </h4>
             <div className="mb-10">
-              {/* <h3 className="text-2xl font-semibold mb-4 text-teal-200">My Interests:</h3>
-              <ul className="space-y-2 text-lg text-gray-200">
-                {['AI in Healthcare', 'Big Data Analytics', 'Build AI-powered applications'].map((item, index) => (
-                  <li key={index} className="flex items-center justify-center lg:justify-start">
-                    <span className="mr-2 text-purple-300">•</span>
-                    {item}
-                  </li>
-                ))}
-              </ul> */}
+            
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start  space-y-4 sm:space-y-0 sm:space-x-4">
             <Link href="#projects" className="hover:text-gray-300">
@@ -53,7 +45,7 @@ export default function Hero() {
                 <ArrowRight className="inline-block ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <a href = '/SnehaDharne-DataAnalyst.pdf' download>
+            <a href = '/SnehaDharne-Data&ML.docx' download>
               <Button className="bg-purple-500 hover:bg-purple-600 text-white">
 
                 Download Resume
@@ -64,7 +56,7 @@ export default function Hero() {
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden  border-8 border-teal-300 shadow-2xl transition-transform duration-300 hover:scale-105">
               <Image
-                src="/image.png"
+                src="/image.jpeg"
                 alt="Sneha Dharne"
                 layout="fill"
                 objectFit="cover"

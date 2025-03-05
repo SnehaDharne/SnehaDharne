@@ -145,7 +145,7 @@ function InternshipCard({ internship, index }) {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <p className="mb-4 text-gray-300">{internship.description}</p>
+          <div className="mb-4 text-gray-300">{internship.description}</div>
           <div className="mb-4 flex flex-wrap gap-2">
             {internship.technologies.map((tech) => (
               <Badge key={tech} className="bg-white/20">
