@@ -19,7 +19,7 @@ const achievements = [
 
 export default function Achievements() {
   return (
-    <section id = "achievements" className="py-20 px-4 md:px-6 bg-white/5">
+    <section id="achievements" className="py-20 px-4 md:px-6 bg-gradient-to-br from-[#f0f7ff] via-[#fff5f5] to-[#f5f0ff]">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -27,7 +27,7 @@ export default function Achievements() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">Key Achievements </h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#4a90e2] mb-12">Key Achievements</h2>
           <div className="grid gap-8">
             {achievements.map((achievement, index) => (
               <motion.div
@@ -36,17 +36,17 @@ export default function Achievements() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2 }}
-                className="bg-white/10 rounded-lg p-6 hover:bg-white/20 transition-colors"
+                className="bg-white/80 rounded-lg p-6 hover:bg-white transition-colors border border-[#e6b3ff]"
               >
-                <achievement.icon className="h-12 w-12 text-teal-400 mb-4" />
-                <h3 className="text-xl font-semibold text-white mb-2">{achievement.title}</h3>
-                <p className="text-gray-300 mb-4">{achievement.description}</p>
+                <achievement.icon className="h-12 w-12 text-[#4a90e2] mb-4" />
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">{achievement.title}</h3>
+                <p className="text-gray-600 mb-4">{achievement.description}</p>
                 {achievement.link && (
                   <a
                     href={achievement.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-teal-400 hover:underline"
+                    className="text-[#4a90e2] hover:text-[#e6b3ff] transition-colors duration-300"
                   >
                     View Publication
                   </a>

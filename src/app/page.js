@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import AcademicJourney from '../components/EduExperience'
 import Achievements from "@/components/Achievements";
 import { Experience } from "@/components/Experience";
+import DataVisualization from "@/components/DataVisualization";
 import React, { useState, useEffect } from 'react';
 
 export default function Home() {
@@ -23,8 +24,10 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
-      <main className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-700 to-teal-600">
+      {/* <main className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-700 to-teal-600"> */}
+      <main className="min-h-screen bg-black">
         <Hero />
+        <DataVisualization />
         <AcademicJourney />
         <Experience />
         <Achievements />

@@ -80,7 +80,7 @@ const internships = [
 
 export function Experience() {
   return (
-    <section id = "experience" className="py-20 px-4 md:px-6">
+    <section id="experience" className="py-20 px-4 md:px-6 bg-gradient-to-br from-[#f0f7ff] via-[#fff5f5] to-[#f5f0ff]">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -88,14 +88,14 @@ export function Experience() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 flex items-center gap-3">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#4a90e2] mb-12 flex items-center gap-3">
             <Briefcase className="h-8 w-8" />
             Professional Experience
           </h2>
 
           {/* Masters Internships */}
           <div className="mb-12">
-            <h3 className="text-2xl font-semibold text-teal-300 mb-6">Graduate Internships</h3>
+            <h3 className="text-2xl font-semibold text-[#4a90e2] mb-6">Graduate Internships</h3>
             <div className="grid gap-6 md:grid-cols-2">
               {internships
                 .filter((intern) => intern.type === "masters")
@@ -107,7 +107,7 @@ export function Experience() {
 
           {/* Bachelors Internships */}
           <div>
-            <h3 className="text-2xl font-semibold text-teal-300 mb-6">Undergraduate Internships</h3>
+            <h3 className="text-2xl font-semibold text-[#4a90e2] mb-6">Undergraduate Internships</h3>
             <div className="grid gap-6 md:grid-cols-2">
               {internships
                 .filter((intern) => intern.type === "bachelors")
@@ -130,10 +130,10 @@ function InternshipCard({ internship, index }) {
       viewport={{ once: true }}
       transition={{ delay: index * 0.1 }}
     >
-      <Card className="bg-white/10 border-none text-white h-full hover:bg-white/20 transition-colors">
+      <Card className="bg-white/80 border border-[#e6b3ff] text-gray-800 h-full hover:bg-white transition-colors">
         <CardHeader>
-          <CardTitle className="text-xl text-teal-300">{internship.title}</CardTitle>
-          <CardDescription className="text-gray-300">
+          <CardTitle className="text-xl text-[#4a90e2]">{internship.title}</CardTitle>
+          <CardDescription className="text-gray-600">
             <div className="flex items-center gap-2 mb-1">
               <Building2 className="h-4 w-4" />
               {internship.company}
@@ -145,15 +145,15 @@ function InternshipCard({ internship, index }) {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="mb-4 text-gray-300">{internship.description}</div>
+          <div className="mb-4 text-gray-700">{internship.description}</div>
           <div className="mb-4 flex flex-wrap gap-2">
             {internship.technologies.map((tech) => (
-              <Badge key={tech} className="bg-white/20">
+              <Badge key={tech} className="bg-[#f5f0ff] text-[#4a90e2] border border-[#e6b3ff]">
                 {tech}
               </Badge>
             ))}
           </div>
-          <ul className="list-disc list-inside text-sm space-y-1 text-gray-300">
+          <ul className="list-disc list-inside text-sm space-y-1 text-gray-700">
             {internship.achievements.map((achievement, i) => (
               <li key={i}>{achievement}</li>
             ))}

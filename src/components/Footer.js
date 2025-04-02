@@ -1,17 +1,36 @@
 export default function Footer() {
-    return (
-      <footer id="contact" className="bg-blue-900 text-white py-8">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
-          <div className="mb-4">Feel free to reach out for collaborations or just a friendly hello</div>
-          <a href="mailto:snehadattadharne@gmail.com" className="text-blue-400 hover:underline">
-            snehadattadharne@gmail.com
+  return (
+    <footer className="py-6 bg-gradient-to-br from-[#f0f7ff] via-[#fff5f5] to-[#f5f0ff] border-t border-[#e6b3ff]">
+      <div className="max-w-6xl mx-auto px-4 text-center">
+        <p className="text-gray-600">
+          © {new Date().getFullYear()} Sneha Dharne. All rights reserved.
+        </p>
+        <div className="mt-4 flex justify-center space-x-6">
+          <a
+            href="https://github.com/SnehaDharne"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#4a90e2] hover:text-[#e6b3ff] transition-colors duration-300"
+          >
+            GitHub
           </a>
-          <div className="mt-4">
-            <div>&copy; {new Date().getFullYear()} Made with {"<3"}.</div>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/sneha-dharne-6837441b6/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#4a90e2] hover:text-[#e6b3ff] transition-colors duration-300"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="mailto:snehadattadharne@gmail.com"
+            className="text-[#4a90e2] hover:text-[#e6b3ff] transition-colors duration-300"
+          >
+            Email
+          </a>
         </div>
-      </footer>
-    )
-  }
+      </div>
+    </footer>
+  );
+}
   

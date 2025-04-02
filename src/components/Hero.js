@@ -11,50 +11,83 @@ const Button = ({ children, className, ...props }) => (
   </button>
 )
 
+const TechTag = ({ children }) => (
+  <span className="px-3 py-1 text-sm font-medium bg-white/10 border border-[#e6b3ff] text-[#4a90e2] rounded-full hover:bg-[#e6b3ff] hover:text-white transition-all duration-300">
+    {children}
+  </span>
+)
+
 export default function Hero() {
+  const techStack = [
+    'Python', 'SQL', 'MongoDB', 'React', 'Next.js', 'TensorFlow', 'NLP',
+    'Power BI', 'DAX', 'Data Analysis', 'Machine Learning', 'Git', 'ETL',
+    'Node.js', 'AWS'
+  ];
+
   return (
-    <section className=" text-white py-20">
+    <section className="text-gray-800 py-20 bg-gradient-to-br from-[#f0f7ff] via-[#fff5f5] to-[#f5f0ff]">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center justify-between mx-10">
           <div className="lg:w-1/2 mb-12 lg:mb-0 text-center lg:text-left">
-            <h2 className="text-2xl font-bold text-teal-300 mb-4 animate-pulse">Hi! I'm Sneha</h2>
-            <h1 className="text-5xl lg:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-300 to-purple-300">
-              I build data-driven solutions to solve real-world problems.
+            <h2 className="text-2xl font-bold text-[#4a90e2] mb-4 animate-pulse">Hi! I'm Sneha</h2>
+            <h1 className="text-5xl lg:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#4a90e2] to-[#e6b3ff]">
+              Data Engineer & Full Stack Developer
             </h1>
+            <p className="text-xl text-gray-600 mb-8">
+              Building scalable data pipelines and transforming complex data into actionable insights
+            </p>
 
             <div className="mb-10">
-              <h3 className="text-2xl font-semibold mb-4 text-teal-200">What I have worked with:</h3>
-              <ul className="space-y-2 text-lg text-gray-200">
-                {['Government Data', 'Medical Research', 'Financial Documents', 'CRM Data'].map((item, index) => (
-                  <li key={index} className="flex items-center justify-center lg:justify-start">
-                    <span className="mr-2 text-purple-300">•</span>
+              <h3 className="text-2xl font-semibold mb-4 text-[#4a90e2]">Technical Expertise:</h3>
+              <p className="text-lg text-gray-700">
+              My technical toolkit includes expertise in Python, SQL, NoSQL databases like MongoDB, and modern web development with React and Next.js
+              </p>
+              {/* <div className="grid grid-cols-2 gap-4 text-lg text-gray-700">
+                {[
+                  'ETL Pipeline Development',
+                  'Data Visualization',
+                  'Data Processing',
+                  'Python & SQL',
+                  'MongoDB & NoSQL',
+                  'React & Next.js',
+                ].map((item, index) => (
+                  <div key={index} className="flex items-center">
+                    <span className="mr-2 text-[#e6b3ff]">•</span>
                     {item}
-                  </li>
+                  </div>
                 ))}
-              </ul>
-             
+              </div> */}
             </div>
-            <h4 className="flex items-center justify-center lg:justify-start"> oh- and I also build AI Assistants to simplify manual tasks </h4>
-            <div className="mb-10">
-            
-            </div>
-            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start  space-y-4 sm:space-y-0 sm:space-x-4">
-            <Link href="#projects" className="hover:text-gray-300">
-              <Button className="bg-teal-500  hover:bg-teal-600 text-white">
-                View My Projects
-                <ArrowRight className="inline-block ml-2 h-5 w-5" />
-              </Button>
-            </Link>
-            <a href = '/SnehaDharne-Data&ML.docx' download>
-              <Button className="bg-purple-500 hover:bg-purple-600 text-white">
 
-                Download Resume
-              </Button>
+            <div className="mb-8">
+              <h3 className="text-xl font-semibold mb-4 text-[#4a90e2]">Tech Stack:</h3>
+              <div className="flex flex-wrap gap-2">
+                {techStack.map((tech, index) => (
+                  <TechTag key={index}>{tech}</TechTag>
+                ))}
+              </div>
+            </div>
+
+            <h4 className="flex items-center justify-center lg:justify-start text-[#e6b3ff] mb-6">
+              oh- and I also build AI Assistants to simplify manual tasks
+            </h4>
+
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+              <Link href="#projects" className="hover:text-gray-300">
+                <Button className="bg-[#4a90e2] hover:bg-[#357abd] text-white">
+                  View My Projects
+                  <ArrowRight className="inline-block ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <a href='/SnehaDataAnalyst.pdf' download>
+                {/* <Button className="bg-white hover:bg-[#f5f0ff] text-[#4a90e2] border border-[#e6b3ff]">
+                  Download Resume
+                </Button> */}
               </a>
             </div>
           </div>
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
-            <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden  border-8 border-teal-300 shadow-2xl transition-transform duration-300 hover:scale-105">
+            <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden border-8 border-[#e6b3ff] shadow-2xl transition-transform duration-300 hover:scale-105">
               <Image
                 src="/image.jpeg"
                 alt="Sneha Dharne"
@@ -76,10 +109,10 @@ export default function Hero() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-teal-300 hover:text-purple-300 bg-black transition-colors duration-300"
+              className="text-[#4a90e2] hover:text-[#e6b3ff] transition-colors duration-300"
               aria-label={label}
             >
-              <span className="sr-only text-white">{label} here here </span>
+              <span className="sr-only text-white">{label}</span>
               <span className={`icon-${icon} text-2xl`}></span>
             </a>
           ))}
