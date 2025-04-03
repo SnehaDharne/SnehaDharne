@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="lg:w-1/2 mb-12 lg:mb-0 text-center lg:text-left">
             <h2 className="text-2xl font-bold text-[#4a90e2] mb-4 animate-pulse">Hi! I'm Sneha</h2>
             <h1 className="text-5xl lg:text-6xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#4a90e2] to-[#e6b3ff]">
-              Data Engineer & Full Stack Developer
+              Data Engineer & AI Developer
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               Building scalable data pipelines and transforming complex data into actionable insights
