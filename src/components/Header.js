@@ -34,10 +34,12 @@ export default function Navigation() {
             <div className="ml-10 flex items-baseline space-x-4">
               {[
                 { name: "Home", href: "#" },
+                { name: "Notion", href: "https://www.notion.so/Querying-is-Easy-1cb9c1d7ede8804a9faed2fcbba03671?pvs=4"},
                 { name: "Experience", href: "#experience" },
                 { name: "Projects", href: "#projects" },
                 { name: "Achievements", href: "#achievements" },
                 { name: "Education", href: "#education" },
+
               ].map((item) => (
                 <Link
                   key={item.name}
