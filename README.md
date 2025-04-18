@@ -37,7 +37,11 @@ Used CNN models (ResNet50, VGG16) to classify fundus images, achieving an F1 sco
 
 ### 🩺 Early GDM Diagnosis in Women (https://github.com/SnehaDharne/GDM-diagnosis)
 Used ML models to diagnose early stage GDM in pregnant women, research featured in Journal of Ayurveda and Integrative Medicine
+
+
+### 👩🏻‍💻Github Stats 
 ![](https://leetcard.jacoblin.cool/snehadharne?ext=heatmap)
+
 ## 📫 Let's Connect!
 
 I'm always excited to collaborate on innovative projects or discuss the latest in data engineering and AI. Feel free to reach out!
