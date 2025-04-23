@@ -39,8 +39,16 @@ Used CNN models (ResNet50, VGG16) to classify fundus images, achieving an F1 sco
 Used ML models to diagnose early stage GDM in pregnant women, research featured in Journal of Ayurveda and Integrative Medicine
 
 
-### 👩🏻‍💻Github Stats 
-![](https://leetcard.jacoblin.cool/snehadharne?ext=heatmap)
+### 👩🏻‍💻 Github Stats
+
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/snehadharne?ext=heatmap" height="400"/>
+</div>
+
+<br><br>
+<div align="center">
+  <img src="https://leetcode-badge-showcase.vercel.app/api?username=SnehaDharne&theme=dark&border=no-border&animated=false" height="400"/>
+</div>
 
 ## 📫 Let's Connect!
 
