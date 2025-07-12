@@ -5,7 +5,7 @@ I'm passionate about leveraging data to drive insights and innovation, especiall
 
 ## 🔬 What I'm Up To
 
-- 🎗️ Interning at Oncology Reference Inc., where I'm building ETL pipelines and automating data processes
+- 🎗️ Engineering at Oncology Reference Inc., where I'm building ETL pipelines and automating data processes
 - 📊 Developing AI-powered tools for financial report generation and medical data analysis
 - 📚 Studying for GCP and AWS Solution Architect certifications
 - 🤝 Seeking connections with fellow data engineers and health tech enthusiasts
