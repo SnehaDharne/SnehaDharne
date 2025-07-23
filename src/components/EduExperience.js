@@ -58,7 +58,7 @@ export default function AcademicJourney() {
               >
                 <Card className="bg-white/80 border border-[#e6b3ff] text-gray-800 h-full hover:bg-white transition-colors">
                   <CardHeader>
-                    <CardTitle className="text-xl text-[#4a90e2]">{edu.degree}</CardTitle>
+                    <CardTitle className="text-xl text-black">{edu.degree}</CardTitle>
                     <CardDescription className="text-gray-600">
                       <div className="flex items-center gap-2 mb-1">
                         <GraduationCap className="h-4 w-4" />

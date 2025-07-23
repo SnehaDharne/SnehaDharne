@@ -28,8 +28,9 @@ export default function Home() {
       <main className="min-h-screen bg-black">
         <Hero />
         {/* <DataVisualization /> */}
+         <Experience />
         <AcademicJourney />
-        <Experience />
+       
         {/* <Achievements /> */}
       </main>
       <Footer />

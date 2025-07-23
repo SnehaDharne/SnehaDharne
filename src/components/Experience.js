@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 const internships = [
   // Masters Internships
   {
-    title: "Data Engineering and DevOps Intern",
+    title: "Data Engineer",
     company: "Oncology Reference Inc.",
     period: "September 2024 - Present",
     description:
@@ -95,7 +95,7 @@ export function Experience() {
 
           {/* Masters Internships */}
           <div className="mb-12">
-            <h3 className="text-2xl font-semibold text-[#4a90e2] mb-6">Graduate Internships</h3>
+            <h3 className="text-2xl font-semibold text-[#4a90e2] mb-6">USA</h3>
             <div className="grid gap-6 md:grid-cols-2">
               {internships
                 .filter((intern) => intern.type === "masters")
@@ -107,7 +107,7 @@ export function Experience() {
 
           {/* Bachelors Internships */}
           <div>
-            <h3 className="text-2xl font-semibold text-[#4a90e2] mb-6">Undergraduate Internships</h3>
+            <h3 className="text-2xl font-semibold text-[#4a90e2] mb-6">India</h3>
             <div className="grid gap-6 md:grid-cols-2">
               {internships
                 .filter((intern) => intern.type === "bachelors")
@@ -132,7 +132,7 @@ function InternshipCard({ internship, index }) {
     >
       <Card className="bg-white/80 border border-[#e6b3ff] text-gray-800 h-full hover:bg-white transition-colors">
         <CardHeader>
-          <CardTitle className="text-xl text-[#4a90e2]">{internship.title}</CardTitle>
+          <CardTitle className="text-xl text-blue-700">{internship.title}</CardTitle>
           <CardDescription className="text-gray-600">
             <div className="flex items-center gap-2 mb-1">
               <Building2 className="h-4 w-4" />
@@ -146,18 +146,18 @@ function InternshipCard({ internship, index }) {
         </CardHeader>
         <CardContent>
           <div className="mb-4 text-gray-700">{internship.description}</div>
-          <div className="mb-4 flex flex-wrap gap-2">
+          <div className="mb-1 flex flex-wrap gap-2">
             {internship.technologies.map((tech) => (
               <Badge key={tech} className="bg-[#f5f0ff] text-[#4a90e2] border border-[#e6b3ff]">
                 {tech}
               </Badge>
             ))}
           </div>
-          <ul className="list-disc list-inside text-sm space-y-1 text-gray-700">
+          {/* <ul className="list-disc list-inside text-sm space-y-1 text-gray-700">
             {internship.achievements.map((achievement, i) => (
               <li key={i}>{achievement}</li>
             ))}
-          </ul>
+          </ul> */}
         </CardContent>
       </Card>
     </motion.div>

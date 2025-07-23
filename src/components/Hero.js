@@ -33,49 +33,21 @@ export default function Hero() {
             <h1 className="text-5xl lg:text-5Exl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#4a90e2] to-[#e6b3ff]">
               AI-focused Data Scientist
             </h1>
-            {/* <p className="text-xl text-gray-600 mb-8">
-              Building scalable data pipelines and transforming complex data into actionable insights
-            </p> */}
-
-            {/* <div className="mb-10">
-              <h3 className="text-2xl font-semibold mb-4 text-[#4a90e2]">Technical Expertise:</h3>
-              <p className="text-lg text-gray-700">
-              My technical toolkit includes expertise in Python, SQL, NoSQL databases like MongoDB, and modern web development with React and Next.js
-              </p> */}
-              {/* <div className="grid grid-cols-2 gap-4 text-lg text-gray-700">
-                {[
-                  'ETL Pipeline Development',
-                  'Data Visualization',
-                  'Data Processing',
-                  'Python & SQL',
-                  'MongoDB & NoSQL',
-                  'React & Next.js',
-                ].map((item, index) => (
-                  <div key={index} className="flex items-center">
-                    <span className="mr-2 text-[#e6b3ff]">•</span>
-                    {item}
-                  </div>
-                ))}
-              </div> */}
-            {/* </div>
-
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 text-[#4a90e2]">Tech Stack:</h3>
-              <div className="flex flex-wrap gap-2">
-                {techStack.map((tech, index) => (
-                  <TechTag key={index}>{tech}</TechTag>
-                ))}
-              </div>
-            </div> */}
 
             <h4 className="flex items-center justify-center lg:justify-start mb-6">
-              Building assistants to cut manual work and speed up research.
+              Currently building assistants to cut manual work and speed up research.
             </h4>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Link href="/projects" className="hover:text-gray-300">
                 <Button className="bg-[#4a90e2] hover:bg-[#357abd] text-white">
                   View My Projects
+                  <ArrowRight className="inline-block ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link href="/blogs" className="hover:text-gray-300">
+                <Button className="bg-[#4a90e2] hover:bg-[#357abd] text-white">
+                  Read my Blogs
                   <ArrowRight className="inline-block ml-2 h-5 w-5" />
                 </Button>
               </Link>
