@@ -23,22 +23,18 @@ export default function Navigation() {
     }`}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
-            <Link href="/" className="text-[#4a90e2] font-bold text-xl">
-              Sneha Dharne
-            </Link>
-          </div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {[
                 { name: "Home", href: "/" },
-                { name: "Notion", href: "https://www.notion.so/Querying-is-Easy-1cb9c1d7ede8804a9faed2fcbba03671?pvs=4"},
-                { name: "Experience", href: "#experience" },
+                { name: "Blogs", href: "/blogs"},
+                { name: "Experience", href: "/#experience" },
                 { name: "Projects", href: "/projects" },
                 // { name: "Achievements", href: "#achievements" },
-                { name: "Education", href: "#education" },
+                { name: "Education", href: "/#education" },
 
               ].map((item) => (
                 <Link
@@ -77,11 +73,11 @@ export default function Navigation() {
         <div className="md:hidden bg-white/80 backdrop-blur-md">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {[
-              { name: "Home", href: "#" },
-              { name: "Experience", href: "#experience" },
-              { name: "Projects", href: "#projects" },
-              { name: "Achievements", href: "#achievements" },
-              { name: "Education", href: "#education" },
+              { name: "Home", href: "/" },
+              { name: "Experience", href: "/#experience" },
+              { name: "Projects", href: "/projects" },
+              {name: "Blogs", href: "/blogs"},
+              { name: "Education", href: "/#education" },
             ].map((item) => (
               <Link
                 key={item.name}
