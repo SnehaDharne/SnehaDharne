@@ -42,8 +42,8 @@ export default function BlogIndex() {
        </div>
        <div className="rounded-lg border p-4 mt-5 hover:shadow-lg transition">
               <a href = "https://www.notion.so/Querying-is-Easy-1cb9c1d7ede8804a9faed2fcbba03671?pvs=4" > 
-               </a>
-             
+              <h2 className="text-xl font-semibold">{"Querying is Easy"}</h2>
+              <p className="text-gray-600">{"Notion Blog on Querying is Easy"}</p>  </a>
             </div>
           </main>
           <Footer />
