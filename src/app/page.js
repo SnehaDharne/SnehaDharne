@@ -27,11 +27,10 @@ export default function Home() {
       {/* <main className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-700 to-teal-600"> */}
       <main className="min-h-screen bg-black">
         <Hero />
-        <DataVisualization />
+        {/* <DataVisualization /> */}
         <AcademicJourney />
         <Experience />
-        <Achievements />
-        <Projects />
+        {/* <Achievements /> */}
       </main>
       <Footer />
     </div>

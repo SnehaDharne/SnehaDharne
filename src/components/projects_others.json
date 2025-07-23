@@ -1,6 +1,0 @@
-[
-    { "id": 10, "title": "findyourhaveli", "description": "A brief description of Project 1", "image": "/placeholder.jpeg","tag": ["Dev"]},
-    { "id": 11, "title": "Case Study at Deloitte", "description": "A brief description of Project 1", "image": "/placeholder.jpeg", "tag": ["Dev", "Big Data", "KPI"]},
-    { "id": 12, "title": "Small Biz books - ecomm website", "description": "A brief description of Project 1", "image": "/placeholder.jpeg",  "tag": ["Dev"]},
-    { "id": 13, "title": "Issue Tracker App", "description": "A brief description of Project 1", "image": "/placeholder.jpeg",  "tag": ["Dev"]}
-]
