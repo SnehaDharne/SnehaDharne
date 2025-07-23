@@ -29,7 +29,7 @@ Built an AI tool using LangChain for automated financial report generation, cutt
 ### 🚗 NYC Collision Risk Prediction (https://github.com/SnehaDharne/BigDataAnalytics-MVCollisions)
 Led ETL on 5M records using PySpark, built a prediction model with 84% accuracy, and scaled the solution on GCP.
 
-### 🤖 Guided ML - An Assistant for Sr. Data Scientists 
+### 🤖 Guided ML - An Assistant for Sr. Data Scientists  (https://github.com/SnehaDharne/chatML)
 Automate manual finetuning, hyperparameter testing and feature engineering using LLMs and Agentic RAG. 
 
 ### 🩺 Early Ocular Disease Diagnosis (https://github.com/SnehaDharne/OcularDiseaseRecognition)
