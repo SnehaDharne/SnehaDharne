@@ -27,13 +27,13 @@ export default function BlogIndex() {
     <div className="min-h-screen flex flex-col">
           <Navigation />
           {/* <main className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-700 to-teal-600"> */}
-          <main className="min-h-screen container mx-auto px-6">
+          <main className="min-h-screen container mx-auto px-6 bg-gradient-to-br from-[#f0f7ff] via-[#fff5f5] to-[#f5f0ff]">
             <div className="grid  mt-20 md:grid-cols-3 gap-6 mx-auto px-auto">
         {posts.map((post) => (
           <Link key={post.slug} href={`/blogs/${post.slug}`}>
             <div className="rounded-lg border p-4 hover:shadow-lg transition">
               <img src={post.image} href = {post.url} alt={post.title} className="mb-3 rounded" />
-              <h2 className="text-xl font-semibold">{post.title}</h2>
+              <h2 className="text-xl text-slate-800 font-semibold">{post.title}</h2>
               <p className="text-gray-600">{post.description}</p>
             </div>
           </Link>
@@ -42,7 +42,7 @@ export default function BlogIndex() {
        </div>
        <div className="rounded-lg border p-4 mt-5 hover:shadow-lg transition">
               <a href = "https://www.notion.so/Querying-is-Easy-1cb9c1d7ede8804a9faed2fcbba03671?pvs=4" > 
-              <h2 className="text-xl font-semibold">{"Querying is Easy"}</h2>
+              <h2 className="text-xl text-slate-800 font-semibold">{"Querying is Easy"}</h2>
               <p className="text-gray-600">{"Notion Blog on Querying is Easy"}</p>  </a>
             </div>
           </main>

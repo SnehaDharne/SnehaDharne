@@ -25,7 +25,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Navigation />
       {/* <main className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-700 to-teal-600"> */}
-      <main className="min-h-screen bg-black">
+      <main className="min-h-screen">
         <Hero />
         {/* <DataVisualization /> */}
          <Experience />

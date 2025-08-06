@@ -4,12 +4,13 @@ import Layout from "@/components/Layout"
 export default function ChatMLBlog() {
   return (
     <Layout>
+      <main className="min-h-screen container mx-auto px-auto mt-10 bg-gradient-to-br from-[#f0f7ff] via-[#fff5f5] to-[#f5f0ff]">
       <div className="prose mx-auto p-6 lg:p-12">
-        <h1 className="text-4xl font-bold mb-6">
+        <h1 className="text-4xl text-slate-700 font-bold mb-6">
           ChatML: Building Lightweight RAG Pipelines Without LangChain
         </h1>
 
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg text-slate-700 leading-relaxed">
           Most LLM frameworks promise speed and convenience, but in practice they often
           introduce overhead and unnecessary abstractions. While experimenting with
           scikit‑learn documentation, I wanted something simple enough to reason about
@@ -19,21 +20,21 @@ export default function ChatMLBlog() {
         </p>
 
         {/* Why Build ChatML */}
-        <h2 className="mt-10 text-2xl font-semibold">Why Build This</h2>
-        <p>
+        <h2 className="mt-10 text-2xl text-slate-700 font-semibold">Why Build This</h2>
+        <p className="text-slate-700">
           LangChain and other orchestration frameworks can be great for prototypes, but
           they impose specific agent structures and add complexity when all you need is
           a few clean functions. I wanted:
         </p>
-        <ul>
+        <ul className="text-slate-700">
           <li>A small codebase that anyone can read in one sitting</li>
           <li>Explicit control over retrieval, prompt construction, and execution</li>
           <li>Easy debugging and extension without hidden magic</li>
         </ul>
 
         {/* Architecture */}
-        <h2 className="mt-10 text-2xl font-semibold">Architecture Overview</h2>
-        <p>
+        <h2 className="mt-10 text-2xl text-slate-700 font-semibold">Architecture Overview</h2>
+        <p className="text-slate-700">
           The system has two core layers. The first is a lightweight RAG pipeline that
           retrieves context from scikit‑learn docs and feeds it to Gemini. The second is
           an executor that takes structured JSON from the LLM and runs quick experiments
@@ -41,7 +42,7 @@ export default function ChatMLBlog() {
           for richer answers.
         </p>
 
-        <div className="flex justify-center my-6">
+        <div className="flex justify-center text-slate-700 my-6">
           <Image
             src="/project/chatml-arch.png"
             alt="ChatML RAG Architecture"
@@ -52,7 +53,7 @@ export default function ChatMLBlog() {
         </div>
 
         {/* RAG Layer */}
-        <h2 className="mt-10 text-2xl font-semibold">1. RAG Layer</h2>
+        <h2 className="mt-10 text-2xl text-slate-700 font-semibold">1. RAG Layer</h2>
         <p>
           Instead of using wrappers, ChatML provides two core functions:
         </p>
@@ -87,8 +88,8 @@ Question: \${question}
         </pre>
 
         {/* Executor */}
-        <h2 className="mt-10 text-2xl font-semibold">2. Executor Layer</h2>
-        <p>
+        <h2 className="mt-10 text-2xl text-slate-700 font-semibold">2. Executor Layer</h2>
+        <p className="text-slate-700">
           The executor extends the pipeline by allowing Gemini to output structured JSON
           describing an experiment to run. This JSON is parsed and executed with scikit‑learn
           directly, producing metrics like accuracy or a classification report.
@@ -107,7 +108,7 @@ Question: \${question}
         </pre>
 
         {/* Lessons Learned */}
-        <h2 className="mt-10 text-2xl font-semibold">What I Learned</h2>
+        <h2 className="mt-10 text-2xl text-slate-700 font-semibold">What I Learned</h2>
         <p>
           Building this without frameworks taught me how LLM pipelines really work under
           the hood. I gained a deeper understanding of retrieval, prompt construction,
@@ -116,7 +117,7 @@ Question: \${question}
         </p>
 
         {/* Call to Action */}
-        <p className="mt-8">
+        <p className="mt-8 text-slate-700">
           The full implementation is open source so you can try out custom prompts and experiments.
         </p>
 
@@ -129,6 +130,7 @@ Question: \${question}
           View Code on GitHub
         </a>
       </div>
+      </main>
     </Layout>
   )
 }
