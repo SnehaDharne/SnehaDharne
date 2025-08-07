@@ -8,19 +8,19 @@ export default function BlogIndex() {
       description: "Building modular AI pipelines without LangChain.",
       slug: "chatml",
       image: "/project/guidedml.png"
+    },
+    {
+      title: "Exocortex: Multi-Agent Debates for Science",
+      description: "Using agents to reason over research papers.",
+      slug: "exocortex",
+      image: "/project/exocortex.png"
+    },
+    {
+      title: "FinAI: Automating Financial Reporting",
+      description: "Cutting financial report prep from hours to minutes.",
+      slug: "finai",
+      image: "/project/guidedml.png"
     }
-    // {
-    //   title: "Exocortex: Multi-Agent Debates for Science",
-    //   description: "Using agents to reason over research papers.",
-    //   slug: "exocortex",
-    //   image: "/project/guidedml.png"
-    // },
-    // {
-    //   title: "FinAI: Automating Financial Reporting",
-    //   description: "Cutting financial report prep from hours to minutes.",
-    //   slug: "finai",
-    //   image: "/project/guidedml.png"
-    // }
   ]
 
   return (
